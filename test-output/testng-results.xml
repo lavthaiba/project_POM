@@ -1,31 +1,152 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
   <reporter-output>
+    <line>
+      <![CDATA[Totalqa Testcase Done!]]>
+    </line>
+    <line>
+      <![CDATA[Totalqa Testcase Done!]]>
+    </line>
     <line>
       <![CDATA[register testcase Done!]]>
     </line>
+    <line>
+      <![CDATA[Clicking all checkboxes in this page]]>
+    </line>
+    <line>
+      <![CDATA[Formstone testcase Done!]]>
+    </line>
+    <line>
+      <![CDATA[Window handle test case Done!]]>
+    </line>
+    <line>
+      <![CDATA[Totalqa Testcase Done!]]>
+    </line>
   </reporter-output>
-  <suite started-at="2024-11-11T13:49:37 NPT" name="Default suite" finished-at="2024-11-11T13:50:08 NPT" duration-ms="31459">
+  <suite started-at="2024-11-11T13:58:47 NPT" name="Suite" finished-at="2024-11-11T13:59:37 NPT" duration-ms="49701">
     <groups>
     </groups>
-    <test started-at="2024-11-11T13:49:37 NPT" name="Default test" finished-at="2024-11-11T13:50:08 NPT" duration-ms="31459">
-      <class name="com.project.bachthree.automation.qa.tests.RegisterTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.project.bachthree.automation.qa.tests.RegisterTest@32502377]" started-at="2024-11-11T13:49:37 NPT" name="setup" finished-at="2024-11-11T13:50:03 NPT" duration-ms="26035" status="PASS">
+    <test started-at="2024-11-11T13:58:47 NPT" name="Testing on firefox" finished-at="2024-11-11T13:58:58 NPT" duration-ms="10634">
+      <class name="com.project.bachthree.automation.qa.tests.TotalQAHomePageCheckBoxClickTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.project.bachthree.automation.qa.tests.TotalQAHomePageCheckBoxClickTest@7674f035]" started-at="2024-11-11T13:58:47 NPT" name="setup" finished-at="2024-11-11T13:58:58 NPT" duration-ms="10162" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verifyRegisterTest()[pri:0, instance:com.project.bachthree.automation.qa.tests.RegisterTest@32502377]" started-at="2024-11-11T13:50:03 NPT" name="verifyRegisterTest" description="Register test case" finished-at="2024-11-11T13:50:08 NPT" duration-ms="5177" status="PASS">
+        <test-method signature="verifyAllClicksOnCheckBoxes()[pri:0, instance:com.project.bachthree.automation.qa.tests.TotalQAHomePageCheckBoxClickTest@7674f035]" started-at="2024-11-11T13:58:58 NPT" name="verifyAllClicksOnCheckBoxes" description="TotalQA testcase" finished-at="2024-11-11T13:58:58 NPT" duration-ms="20" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Totalqa Testcase Done!]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyAllClicksOnCheckBoxes -->
+        <test-method is-config="true" signature="closeBrowserSession(org.testng.ITestResult)[pri:0, instance:com.project.bachthree.automation.qa.tests.TotalQAHomePageCheckBoxClickTest@7674f035]" started-at="2024-11-11T13:58:58 NPT" name="closeBrowserSession" finished-at="2024-11-11T13:58:58 NPT" duration-ms="364" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyAllClicksOnCheckBoxes status=SUCCESS method=TotalQAHomePageCheckBoxClickTest.verifyAllClicksOnCheckBoxes()[pri:0, instance:com.project.bachthree.automation.qa.tests.TotalQAHomePageCheckBoxClickTest@7674f035] output=Totalqa Testcase Done!]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowserSession -->
+      </class> <!-- com.project.bachthree.automation.qa.tests.TotalQAHomePageCheckBoxClickTest -->
+    </test> <!-- Testing on firefox -->
+    <test started-at="2024-11-11T13:58:47 NPT" name="Testing on edge" finished-at="2024-11-11T13:59:00 NPT" duration-ms="12493">
+      <class name="com.project.bachthree.automation.qa.tests.TotalQAHomePageCheckBoxClickTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.project.bachthree.automation.qa.tests.TotalQAHomePageCheckBoxClickTest@25ce9dc4]" started-at="2024-11-11T13:58:47 NPT" name="setup" finished-at="2024-11-11T13:58:59 NPT" duration-ms="11993" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyAllClicksOnCheckBoxes()[pri:0, instance:com.project.bachthree.automation.qa.tests.TotalQAHomePageCheckBoxClickTest@25ce9dc4]" started-at="2024-11-11T13:58:59 NPT" name="verifyAllClicksOnCheckBoxes" description="TotalQA testcase" finished-at="2024-11-11T13:58:59 NPT" duration-ms="3" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Totalqa Testcase Done!]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyAllClicksOnCheckBoxes -->
+        <test-method is-config="true" signature="closeBrowserSession(org.testng.ITestResult)[pri:0, instance:com.project.bachthree.automation.qa.tests.TotalQAHomePageCheckBoxClickTest@25ce9dc4]" started-at="2024-11-11T13:58:59 NPT" name="closeBrowserSession" finished-at="2024-11-11T13:59:00 NPT" duration-ms="423" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyAllClicksOnCheckBoxes status=SUCCESS method=TotalQAHomePageCheckBoxClickTest.verifyAllClicksOnCheckBoxes()[pri:0, instance:com.project.bachthree.automation.qa.tests.TotalQAHomePageCheckBoxClickTest@25ce9dc4] output=Totalqa Testcase Done!]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowserSession -->
+      </class> <!-- com.project.bachthree.automation.qa.tests.TotalQAHomePageCheckBoxClickTest -->
+    </test> <!-- Testing on edge -->
+    <test started-at="2024-11-11T13:58:47 NPT" name="Testing on chrome" finished-at="2024-11-11T13:59:37 NPT" duration-ms="49701">
+      <class name="com.project.bachthree.automation.qa.tests.TotalQAHomePageCheckBoxClickTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.project.bachthree.automation.qa.tests.TotalQAHomePageCheckBoxClickTest@7b36aa0c]" started-at="2024-11-11T13:59:31 NPT" name="setup" finished-at="2024-11-11T13:59:37 NPT" duration-ms="6201" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyAllClicksOnCheckBoxes()[pri:0, instance:com.project.bachthree.automation.qa.tests.TotalQAHomePageCheckBoxClickTest@7b36aa0c]" started-at="2024-11-11T13:59:37 NPT" name="verifyAllClicksOnCheckBoxes" description="TotalQA testcase" finished-at="2024-11-11T13:59:37 NPT" duration-ms="2" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Totalqa Testcase Done!]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyAllClicksOnCheckBoxes -->
+        <test-method is-config="true" signature="closeBrowserSession(org.testng.ITestResult)[pri:0, instance:com.project.bachthree.automation.qa.tests.TotalQAHomePageCheckBoxClickTest@7b36aa0c]" started-at="2024-11-11T13:59:37 NPT" name="closeBrowserSession" finished-at="2024-11-11T13:59:37 NPT" duration-ms="255" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyAllClicksOnCheckBoxes status=SUCCESS method=TotalQAHomePageCheckBoxClickTest.verifyAllClicksOnCheckBoxes()[pri:0, instance:com.project.bachthree.automation.qa.tests.TotalQAHomePageCheckBoxClickTest@7b36aa0c] output=Totalqa Testcase Done!]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowserSession -->
+      </class> <!-- com.project.bachthree.automation.qa.tests.TotalQAHomePageCheckBoxClickTest -->
+      <class name="com.project.bachthree.automation.qa.tests.FormStoneChechBoxTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.project.bachthree.automation.qa.tests.FormStoneChechBoxTest@4a883b15]" started-at="2024-11-11T13:59:02 NPT" name="setup" finished-at="2024-11-11T13:59:12 NPT" duration-ms="9528" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyAllClicksOnCheckBoxes()[pri:0, instance:com.project.bachthree.automation.qa.tests.FormStoneChechBoxTest@4a883b15]" started-at="2024-11-11T13:59:12 NPT" name="verifyAllClicksOnCheckBoxes" description="formStone testcases" finished-at="2024-11-11T13:59:24 NPT" duration-ms="12097" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Clicking all checkboxes in this page]]>
+            </line>
+            <line>
+              <![CDATA[Formstone testcase Done!]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyAllClicksOnCheckBoxes -->
+        <test-method is-config="true" signature="closeBrowserSession(org.testng.ITestResult)[pri:0, instance:com.project.bachthree.automation.qa.tests.FormStoneChechBoxTest@4a883b15]" started-at="2024-11-11T13:59:24 NPT" name="closeBrowserSession" finished-at="2024-11-11T13:59:24 NPT" duration-ms="205" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyAllClicksOnCheckBoxes status=SUCCESS method=FormStoneChechBoxTest.verifyAllClicksOnCheckBoxes()[pri:0, instance:com.project.bachthree.automation.qa.tests.FormStoneChechBoxTest@4a883b15] output=Clicking all checkboxes in this page]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowserSession -->
+      </class> <!-- com.project.bachthree.automation.qa.tests.FormStoneChechBoxTest -->
+      <class name="com.project.bachthree.automation.qa.tests.RegisterTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.project.bachthree.automation.qa.tests.RegisterTest@437da279]" started-at="2024-11-11T13:58:47 NPT" name="setup" finished-at="2024-11-11T13:58:57 NPT" duration-ms="9652" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyRegisterTest()[pri:0, instance:com.project.bachthree.automation.qa.tests.RegisterTest@437da279]" started-at="2024-11-11T13:58:57 NPT" name="verifyRegisterTest" description="Register test case" finished-at="2024-11-11T13:59:02 NPT" duration-ms="4750" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[register testcase Done!]]>
             </line>
           </reporter-output>
         </test-method> <!-- verifyRegisterTest -->
-        <test-method is-config="true" signature="closeBrowserSession(org.testng.ITestResult)[pri:0, instance:com.project.bachthree.automation.qa.tests.RegisterTest@32502377]" started-at="2024-11-11T13:50:08 NPT" name="closeBrowserSession" finished-at="2024-11-11T13:50:08 NPT" duration-ms="187" status="PASS">
+        <test-method is-config="true" signature="closeBrowserSession(org.testng.ITestResult)[pri:0, instance:com.project.bachthree.automation.qa.tests.RegisterTest@437da279]" started-at="2024-11-11T13:59:02 NPT" name="closeBrowserSession" finished-at="2024-11-11T13:59:02 NPT" duration-ms="266" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=verifyRegisterTest status=SUCCESS method=RegisterTest.verifyRegisterTest()[pri:0, instance:com.project.bachthree.automation.qa.tests.RegisterTest@32502377] output=register testcase Done!]]]>
+                <![CDATA[[TestResult name=verifyRegisterTest status=SUCCESS method=RegisterTest.verifyRegisterTest()[pri:0, instance:com.project.bachthree.automation.qa.tests.RegisterTest@437da279] output=register testcase Done!]]]>
               </value>
             </param>
           </params>
@@ -33,6 +154,30 @@
           </reporter-output>
         </test-method> <!-- closeBrowserSession -->
       </class> <!-- com.project.bachthree.automation.qa.tests.RegisterTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      <class name="com.project.bachthree.automation.qa.tests.WindowHanldeTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.project.bachthree.automation.qa.tests.WindowHanldeTest@25641d39]" started-at="2024-11-11T13:59:24 NPT" name="setup" finished-at="2024-11-11T13:59:30 NPT" duration-ms="6416" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyWindowHandleTest()[pri:0, instance:com.project.bachthree.automation.qa.tests.WindowHanldeTest@25641d39]" started-at="2024-11-11T13:59:30 NPT" name="verifyWindowHandleTest" description="Window handle testng" finished-at="2024-11-11T13:59:30 NPT" duration-ms="56" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Window handle test case Done!]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyWindowHandleTest -->
+        <test-method is-config="true" signature="closeBrowserSession(org.testng.ITestResult)[pri:0, instance:com.project.bachthree.automation.qa.tests.WindowHanldeTest@25641d39]" started-at="2024-11-11T13:59:30 NPT" name="closeBrowserSession" finished-at="2024-11-11T13:59:31 NPT" duration-ms="191" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyWindowHandleTest status=SUCCESS method=WindowHanldeTest.verifyWindowHandleTest()[pri:0, instance:com.project.bachthree.automation.qa.tests.WindowHanldeTest@25641d39] output=Window handle test case Done!]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowserSession -->
+      </class> <!-- com.project.bachthree.automation.qa.tests.WindowHanldeTest -->
+    </test> <!-- Testing on chrome -->
+  </suite> <!-- Suite -->
 </testng-results>

@@ -49,12 +49,12 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Suite" class="navigator-link ">
-                    <span>D:\cabtmDashboardAutomation\com.project.bachthree.automation.qa\smoketesting.xml</span>
+                    <span>D:\cabtmDashboardAutomation\com.project.bachthree.automation.qa\ExtentReportTest.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
                   <a href="#" panel-name="testlist-Suite" class="navigator-link ">
-                    <span class="test-stats">3 tests</span>
+                    <span class="test-stats">1 test</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -91,7 +91,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">2 methods,   2 passed</span>
+                    <span class="method-stats">1 method,   1 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -100,11 +100,6 @@
                       <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
                     </span>
                     <div class="method-list-content passed suite-Suite">
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="com.project.bachthree.automation.qa.tests.RegisterTest" class="method navigator-link" hash-for-method="verifyRegisterTest">verifyRegisterTest</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Suite" title="com.project.bachthree.automation.qa.tests.RegisterTest" class="method navigator-link" hash-for-method="verifyRegisterTest">verifyRegisterTest</a> <!-- method navigator-link -->
@@ -137,48 +132,27 @@
 (Register test case)                  </em>
                 </div> <!-- method-content -->
               </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="verifyRegisterTest">
-                  </a> <!-- verifyRegisterTest -->
-                  <span class="method-name">verifyRegisterTest</span>
-                  <em>
-(Register test case)                  </em>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-Suite-class-passed -->
         </div> <!-- panel Suite -->
         <div panel-name="test-xml-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">D:\cabtmDashboardAutomation\com.project.bachthree.automation.qa\smoketesting.xml</span>
+            <span class="header-content">D:\cabtmDashboardAutomation\com.project.bachthree.automation.qa\ExtentReportTest.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
-&lt;suite parallel=&quot;tests&quot; name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+&lt;suite name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
   &lt;listeners&gt;
     &lt;listener class-name=&quot;com.project.bachthree.automation.utilities.MyListener&quot;/&gt;
   &lt;/listeners&gt;
-  &lt;test thread-count=&quot;5&quot; parallel=&quot;tests&quot; name=&quot;Testing on chrome&quot;&gt;
-    &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;ExtentTest&quot;&gt;
     &lt;classes&gt;
       &lt;class name=&quot;com.project.bachthree.automation.qa.tests.RegisterTest&quot;/&gt;
     &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- Testing on chrome --&gt;
-  &lt;test thread-count=&quot;5&quot; parallel=&quot;tests&quot; name=&quot;Testing on firefox&quot;&gt;
-    &lt;parameter name=&quot;browser&quot; value=&quot;firefox&quot;/&gt;
-    &lt;classes&gt;
-      &lt;class name=&quot;com.project.bachthree.automation.qa.tests.RegisterTest&quot;/&gt;
-    &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- Testing on firefox --&gt;
-  &lt;test thread-count=&quot;5&quot; parallel=&quot;tests&quot; name=&quot;Testing on edge&quot;&gt;
-    &lt;parameter name=&quot;browser&quot; value=&quot;edge&quot;/&gt;
-    &lt;classes&gt;
-      &lt;class name=&quot;com.project.bachthree.automation.qa.tests.RegisterTest&quot;/&gt;
-    &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- Testing on edge --&gt;
+  &lt;/test&gt; &lt;!-- ExtentTest --&gt;
 &lt;/suite&gt; &lt;!-- Suite --&gt;
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -190,13 +164,7 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Testing on chrome (1 class)</span>
-              </li>
-              <li>
-                <span class="test-name">Testing on firefox (1 class)</span>
-              </li>
-              <li>
-                <span class="test-name">Testing on edge (1 class)</span>
+                <span class="test-name">ExtentTest (1 class)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -222,20 +190,16 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(2);
+data.addRows(1);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'verifyRegisterTest')
 data.setCell(0, 2, 'com.project.bachthree.automation.qa.tests.RegisterTest')
-data.setCell(0, 3, 22335);
-data.setCell(1, 0, 1)
-data.setCell(1, 1, 'verifyRegisterTest')
-data.setCell(1, 2, 'com.project.bachthree.automation.qa.tests.RegisterTest')
-data.setCell(1, 3, 9247);
+data.setCell(0, 3, 4886);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 56 seconds</span>
+              <span class="suite-total-time">Total running time: 4 seconds</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -250,25 +214,12 @@ return data;
               <span class="reporter-method-name">verifyRegisterTest</span>
               <div class="reporter-method-output-div">
                 <span class="reporter-method-output">Before Finding ElementBy.xpath: //input[@name='vfb-5']</span>
-                <span class="reporter-method-output">Before sending any values to input field[[FirefoxDriver: firefox on windows (a62bc06c-6e0a-4427-834e-adea1941cbf3)] -> xpath: //input[@name='vfb-5']]</span>
+                <span class="reporter-method-output">Before sending any values to input field[[ChromeDriver: chrome on windows (eb692e6fb2e18d8c4539ee2a2c3302fd)] -> xpath: //input[@name='vfb-5']]</span>
                 <span class="reporter-method-output">Before Finding ElementBy.xpath: //input[@name='vfb-7']</span>
-                <span class="reporter-method-output">Before sending any values to input field[[FirefoxDriver: firefox on windows (a62bc06c-6e0a-4427-834e-adea1941cbf3)] -> xpath: //input[@name='vfb-7']]</span>
+                <span class="reporter-method-output">Before sending any values to input field[[ChromeDriver: chrome on windows (eb692e6fb2e18d8c4539ee2a2c3302fd)] -> xpath: //input[@name='vfb-7']]</span>
                 <span class="reporter-method-output">Before Finding ElementBy.xpath: //input[@value='Male']</span>
-                <span class="reporter-method-output">Before Clicking:[[FirefoxDriver: firefox on windows (a62bc06c-6e0a-4427-834e-adea1941cbf3)] -> xpath: //input[@value='Male']]</span>
-                <span class="reporter-method-output">After Clicking:[[FirefoxDriver: firefox on windows (a62bc06c-6e0a-4427-834e-adea1941cbf3)] -> xpath: //input[@value='Male']]</span>
-                <span class="reporter-method-output">register testcase Done!</span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
-            <div class="reporter-method-div">
-              <span class="reporter-method-name">verifyRegisterTest</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">Before Finding ElementBy.xpath: //input[@name='vfb-5']</span>
-                <span class="reporter-method-output">Before sending any values to input field[[FirefoxDriver: firefox on windows (a62bc06c-6e0a-4427-834e-adea1941cbf3)] -> xpath: //input[@name='vfb-5']]</span>
-                <span class="reporter-method-output">Before Finding ElementBy.xpath: //input[@name='vfb-7']</span>
-                <span class="reporter-method-output">Before sending any values to input field[[FirefoxDriver: firefox on windows (a62bc06c-6e0a-4427-834e-adea1941cbf3)] -> xpath: //input[@name='vfb-7']]</span>
-                <span class="reporter-method-output">Before Finding ElementBy.xpath: //input[@value='Male']</span>
-                <span class="reporter-method-output">Before Clicking:[[FirefoxDriver: firefox on windows (a62bc06c-6e0a-4427-834e-adea1941cbf3)] -> xpath: //input[@value='Male']]</span>
-                <span class="reporter-method-output">After Clicking:[[FirefoxDriver: firefox on windows (a62bc06c-6e0a-4427-834e-adea1941cbf3)] -> xpath: //input[@value='Male']]</span>
+                <span class="reporter-method-output">Before Clicking:[[ChromeDriver: chrome on windows (eb692e6fb2e18d8c4539ee2a2c3302fd)] -> xpath: //input[@value='Male']]</span>
+                <span class="reporter-method-output">After Clicking:[[ChromeDriver: chrome on windows (eb692e6fb2e18d8c4539ee2a2c3302fd)] -> xpath: //input[@value='Male']]</span>
                 <span class="reporter-method-output">register testcase Done!</span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
@@ -292,41 +243,13 @@ return data;
                 <span class="method-name">CrossBrowsersetup(chrome)</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-method before -->
-              <div class="configuration-method before">
-                <span class="method-name">CrossBrowsersetup(edge)</span>
-                <span class="method-start">201 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="configuration-method before">
-                <span class="method-name">CrossBrowsersetup(firefox)</span>
-                <span class="method-start">202 ms</span>
-              </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">verifyRegisterTest</span>
-                <span class="method-start">19518 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">verifyRegisterTest</span>
-                <span class="method-start">33472 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">verifyRegisterTest</span>
-                <span class="method-start">34700 ms</span>
+                <span class="method-start">11993 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">closeBrowserSession([TestResult name=verifyRegisterTest status=SUCCESS method=RegisterTest.verifyRegisterTest()[pri:0, i...)</span>
-                <span class="method-start">41658 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method after">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">closeBrowserSession([TestResult name=verifyRegisterTest status=SUCCESS method=RegisterTest.verifyRegisterTest()[pri:0, i...)</span>
-                <span class="method-start">41855 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method after">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">closeBrowserSession([TestResult name=verifyRegisterTest status=SUCCESS method=RegisterTest.verifyRegisterTest()[pri:0, i...)</span>
-                <span class="method-start">42722 ms</span>
+                <span class="method-start">16900 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

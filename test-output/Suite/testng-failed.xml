@@ -4,40 +4,16 @@
   <listeners>
     <listener class-name="com.project.bachthree.automation.utilities.MyListener"/>
   </listeners>
-  <test thread-count="5" parallel="tests" name="Testing on chrome(failed)">
-    <parameter name="browser" value="chrome"/>
-    <classes>
-      <class name="com.project.bachthree.automation.qa.tests.RegisterTest">
-        <methods>
-          <include name="CrossBrowsersetup"/>
-          <include name="verifyRegisterTest"/>
-          <include name="closeBrowserSession"/>
-        </methods>
-      </class> <!-- com.project.bachthree.automation.qa.tests.RegisterTest -->
-    </classes>
-  </test> <!-- Testing on chrome(failed) -->
   <test thread-count="5" parallel="tests" name="Testing on firefox(failed)">
     <parameter name="browser" value="firefox"/>
     <classes>
-      <class name="com.project.bachthree.automation.qa.tests.RegisterTest">
+      <class name="com.project.bachthree.automation.qa.tests.FormStoneChechBoxTest">
         <methods>
+          <include name="verifyAllClicksOnCheckBoxes"/>
           <include name="CrossBrowsersetup"/>
-          <include name="verifyRegisterTest"/>
           <include name="closeBrowserSession"/>
         </methods>
-      </class> <!-- com.project.bachthree.automation.qa.tests.RegisterTest -->
+      </class> <!-- com.project.bachthree.automation.qa.tests.FormStoneChechBoxTest -->
     </classes>
   </test> <!-- Testing on firefox(failed) -->
-  <test thread-count="5" parallel="tests" name="Testing on edge(failed)">
-    <parameter name="browser" value="edge"/>
-    <classes>
-      <class name="com.project.bachthree.automation.qa.tests.RegisterTest">
-        <methods>
-          <include name="CrossBrowsersetup"/>
-          <include name="verifyRegisterTest"/>
-          <include name="closeBrowserSession"/>
-        </methods>
-      </class> <!-- com.project.bachthree.automation.qa.tests.RegisterTest -->
-    </classes>
-  </test> <!-- Testing on edge(failed) -->
 </suite> <!-- Failed suite [Suite] -->
